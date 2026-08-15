@@ -1,0 +1,90 @@
+name: "UK Meta advertisers - three notes"
+schedule:
+  timezone: Europe/London
+  days: [1, 2, 3, 4, 5]
+  start_hour: "08:00"
+  end_hour: "17:00"
+  min_time_btw_emails: 12
+  max_leads_per_day: 20
+inbox_selection:
+  tag: active
+  count: 2
+sequences:
+  - step: 1
+    delay_days: 0
+    variants:
+      - label: A
+        subject: "{{company_name}} ads"
+        body: |
+          {{first_name}}, caught {{company_name}} running {{ad_example}} in the UK Ad Library.
+
+          I buy Meta and Google for brands in a similar spot. Happy to sit with the live ads for 15 minutes and send three notes on where spend is leaking. You keep the notes either way.
+
+          Reply Y if useful.
+
+          Ejaz Ahmed
+          Data with Ejaz
+          YOUR_UK_ADDRESS
+          https://datawithejaz.com/privacy
+          If you would rather not hear from me, reply stop.
+      - label: B
+        subject: "{{product_hook}}"
+        body: |
+          {{first_name}}, 15 minutes on {{company_name}}'s Meta ads. Three notes on wasted spend. No deck.
+
+          I have done this inside agencies for six years. If the notes are useless, we stop there.
+
+          Want me to send them?
+
+          Ejaz Ahmed
+          Data with Ejaz
+          YOUR_UK_ADDRESS
+          https://datawithejaz.com/privacy
+          If you would rather not hear from me, reply stop.
+      - label: C
+        subject: "saw the ads"
+        body: |
+          {{first_name}}, you sell {{product_hook}}. The live ads for {{company_name}} look busy. I am not sure the measurement underneath can tell you which one is paying.
+
+          I can walk the account with you for 15 minutes and leave three notes.
+
+          Reply Y and I will book a slot.
+
+          Ejaz Ahmed
+          Data with Ejaz
+          YOUR_UK_ADDRESS
+          https://datawithejaz.com/privacy
+          If you would rather not hear from me, reply stop.
+  - step: 2
+    delay_days: 3
+    variants:
+      - label: A
+        subject: ""
+        body: |
+          {{first_name}}, most founder-led shops I see are paying for ads that cannot be tied back to a basket.
+
+          If that is {{company_name}}, the 15-minute pass is me pointing at three fixes. No software to buy.
+
+          Is that on your radar?
+  - step: 3
+    delay_days: 4
+    variants:
+      - label: A
+        subject: "question for {{first_name}}"
+        body: |
+          {{first_name}}, when you look at {{company_name}}'s Meta account, can you say which ad made money last week?
+
+          If the answer is messy, I will do a 15-minute pass and send three notes. Used to run this inside WPP and Publicis buying teams.
+
+          Worth a look?
+  - step: 4
+    delay_days: 4
+    variants:
+      - label: A
+        subject: ""
+        body: |
+          {{first_name}}, last note from me.
+
+          If a 15-minute pass on the live ads is not useful, say stop and I will not write again.
+
+          If it is, reply Y and I will send the three notes after we talk.
