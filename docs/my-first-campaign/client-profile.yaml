@@ -1,0 +1,81 @@
+# Personal ICP for Ejaz Ahmed / Data with Ejaz
+# Generated 2026-08-15 from /icp-onboarding-style intake.
+# This file lives in docs/ so it is versioned. Copy to profiles/datawithejaz/
+# (gitignored) if you start using the skills against a local profile path.
+
+business:
+  name: Data with Ejaz
+  website: https://datawithejaz.com
+  one_liner: Paid ads and measurement help for UK brands that are already spending, or should be, on Meta and Google.
+  tone: peer-to-peer
+  operator: Ejaz Ahmed
+  location: London, United Kingdom
+
+offer:
+  primary_cta: 15-minute paid-ads diagnostic
+  lead_magnet: Three specific notes on where the current Meta/Google setup is leaking spend
+  lead_magnet_details: >
+    Live 15-minute screen-share or async Loom. Prospect leaves with three
+    concrete notes even if they never hire you. No slide deck.
+  lead_magnet_cta_example: Reply Y and I will send three notes on the live ads. Fifteen minutes, no deck.
+  value_prop: Stop wasting ad spend on setups that cannot tell you what is actually working.
+
+icp_hard_filters:
+  job_titles:
+    - Founder
+    - Co-Founder
+    - Managing Director
+    - Director
+    - Head of Marketing
+    - Marketing Manager
+    - Ecommerce Manager
+    - Head of Growth
+    - Performance Marketing Manager
+  industries_in:
+    - General Retail
+    - Retail Apparel and Fashion
+    - Consumer Services
+    - Wellness and Fitness Services
+    - Food and Beverage Services
+    - Food and Beverage Manufacturing
+    - Cosmetics
+    - Sporting Goods
+    - Furniture and Home Furnishings Manufacturing
+    - Online Media
+  headcount_min: 2
+  headcount_max: 50
+  countries:
+    - GB
+  states: []
+  excluded_domains:
+    - datawithejaz.com
+  must_be_corporate_subscriber: true  # Ltd / LLP only. No sole traders. UK PECR.
+  must_have_company_email: true       # no gmail/hotmail/outlook personal
+  buying_signal: already running Meta or Google ads in the UK, or a live ecommerce store with no ads (second wave)
+
+icp_soft_preferences:
+  triggers:
+    - active_ads_in_meta_ad_library
+    - shopify_or_woocommerce_store
+    - hiring_for_paid_ads_or_performance_role
+    - founder_posted_about_ad_spend_or_roas
+  personas_to_prioritize:
+    - Founder-led brands 5-25 people already spending on Meta
+    - Ecommerce managers at 10-50 person retailers with no in-house media buyer
+
+legal:
+  banned_words:
+    - marketing
+    - diagnostics
+    - get
+    - deal
+    - performance
+  regulated_industry: false
+  lawful_basis: legitimate_interests
+  pecr_rule: corporate_subscribers_only
+  privacy_policy_url: https://datawithejaz.com/privacy  # create this page before sending
+  physical_address: REPLACE_WITH_YOUR_UK_ADDRESS
+
+created_at: 2026-08-15
+budget_usd_per_month: 100
+infrastructure: none_yet

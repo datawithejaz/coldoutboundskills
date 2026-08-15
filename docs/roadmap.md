@@ -1,5 +1,7 @@
 # The Cold Email Roadmap — Which Skill Do I Use When?
 
+**Personal overlay (Ejaz, UK paid ads, $100/mo):** start in [`docs/my-first-campaign/`](./my-first-campaign/README.md). That pack shrinks this roadmap to two inboxes, a 14-day warmup, and a free Ad Library list. Do not run `/zapmail-domain-setup-public` or Prospeo on that budget.
+
 One-page map from business-stage to skill. Find where you are, read the "invoke" column.
 
 ## The full linear flow (ideal path)
